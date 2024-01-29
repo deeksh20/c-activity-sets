@@ -4,10 +4,10 @@ int input();
 int compare(int a, int b, int c);
 void output(int a, int b, int c, int largest);
 int input() {
-    int num;
+    int x;
     printf("Enter a number: ");
-    scanf("%d", &num);
-    return num;
+    scanf("%d", &x);
+    return x;
 }
 
 int compare(int a, int b, int c) {
