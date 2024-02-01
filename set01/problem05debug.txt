@@ -1,3 +1,7 @@
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+[main 26518d3] test
+ 1 file changed, 11 insertions(+), 1 deletion(-)
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem05.c -o problem05.exe
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem05.exe
 GNU gdb (GDB) 7.6.1
@@ -10,4 +14,12 @@ This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem05.exe...done.
-(gdb)
+(gdb) r
+Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem05.exe 
+[New Thread 14540.0x2184]
+[New Thread 14540.0x1ef4]
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+The largest number among 3, 4, and 5 is: 5[Inferior 1 (process 14540) exited normally]
+(gdb) quit
