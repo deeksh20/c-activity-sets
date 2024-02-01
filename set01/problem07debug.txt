@@ -1,14 +1,9 @@
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
-PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "commit"
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   ../.vscode/settings.json
-
-no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+[main e5ef63a] test
+ 3 files changed, 41 insertions(+), 4 deletions(-)
+ create mode 100644 set01/problem08debug.txt
+ create mode 100644 set01/problem08error.txt
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem07.c -o problem07.exe
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem07.exe
 GNU gdb (GDB) 7.6.1
@@ -23,7 +18,8 @@ For bug reporting instructions, please see:
 Reading symbols from C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem07.exe...done.
 (gdb) r
 Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem07.exe 
-[New Thread 21200.0x4c98]
-[New Thread 21200.0x42e8]
-the sum of natural numbers is 3293184[Inferior 1 (process 21200) exited normally]
+[New Thread 19864.0x2af8]
+[New Thread 19864.0x3c90]
+enter the value of n  1 2 3
+the sum of all  natural numbers until 1 is 1/n[Inferior 1 (process 19864) exited normally]
 (gdb) quit
