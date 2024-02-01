@@ -179,7 +179,7 @@ Enter number: 49
 ***Output***
 ```
 Square root of 49.0 is 7.0
-```
+`
 
 ---
 
