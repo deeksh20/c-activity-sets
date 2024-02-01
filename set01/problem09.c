@@ -4,6 +4,12 @@
 float input();
 float square_root(float n);
 void output(float n, float sqrroot);
+int main(){
+    float inp,sqrrt;
+    inp=input();
+    sqrrt=square_root(inp);
+    output(inp,sqrrt);
+}
 float input(){
     float n;
     printf("enter number");
