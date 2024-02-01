@@ -1,0 +1,31 @@
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+[main 8e20688] test
+ 3 files changed, 66 insertions(+)
+ create mode 100644 set01/problem10debug.txt
+ create mode 100644 set01/problem10error.txt
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem11.c -o problem11.exe
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem11.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem11.exe...done.
+(gdb) r
+Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem11.exe 
+[New Thread 8624.0x26c8]
+[New Thread 8624.0x5078]
+For the first complex number:
+Enter the real and imaginary parts: 2 3
+For the second complex number:
+Enter the real and imaginary parts: 4 5
+The first complex number is: 2.0 + 3.0i
+The second complex number is: 4.0 + 5.0i
+The sum of these complex numbers is: 6.0 + 8.0i
+[Inferior 1 (process 8624) exited normally]
+(gdb)
