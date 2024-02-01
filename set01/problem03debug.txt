@@ -1,3 +1,7 @@
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+[main 3cf0484] test
+ 1 file changed, 20 insertions(+), 1 deletion(-)
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem03.c -o problem03.exe
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem03.exe
 GNU gdb (GDB) 7.6.1
@@ -10,4 +14,12 @@ This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem03.exe...done.
-(gdb)
+(gdb) r
+Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem03.exe 
+[New Thread 11456.0xf2c]
+[New Thread 11456.0x20a0]
+enter the value 2 
+enter the value 3
+the sum of 2 and 3 is 5
+[Inferior 1 (process 11456) exited normally]
+(gdb) quit
