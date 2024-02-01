@@ -1,3 +1,16 @@
+
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
+PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../.vscode/settings.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem02.c -o problem02.exe
 PS C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem02.exe
 GNU gdb (GDB) 7.6.1
@@ -10,4 +23,10 @@ This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
 Reading symbols from C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem02.exe...done.
-(gdb)
+(gdb) r
+Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem02.exe
+[New Thread 11812.0x4c04]
+[New Thread 11812.0xf74]
+6
+[Inferior 1 (process 11812) exited normally]
+(gdb) quit
