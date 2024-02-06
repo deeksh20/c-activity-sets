@@ -17,4 +17,4 @@ Starting program: C:\Users\deeks\OneDrive\Desktop\c-activity-sets\c-activity-set
 Deekshitha[Inferior 1 (process 11512) exited normally]
 (gdb) exit
 Undefined command: "exit".  Try "help".
-(gdb) quit
+(gdb) quit 

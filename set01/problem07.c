@@ -27,3 +27,4 @@ int main(){
     output(n,sum);
     return 0;
 }
+     
