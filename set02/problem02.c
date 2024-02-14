@@ -13,7 +13,7 @@ int main(){
     output(side1,side2,side3,isscalene);
     return 0;
 }
-int input_side(){
+int input_side() {
     int side;
     printf("enter the length of side");
     scanf("%d",&side);
