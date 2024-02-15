@@ -4,13 +4,13 @@ int input_side();
 int check_scalene(int a, int b, int c);
 void output(int a, int b, int c, int isscalene);
 int main(){
-    int side1,side2,side3,isscalene;
+    int a,b,c,isscalene;
    
-    side1=input_side();
-    side2=input_side();
-    side3=input_side();
-    isscalene=check_scalene(side1,side2,side3);
-    output(side1,side2,side3,isscalene);
+    a=input_side();
+   b=input_side();
+    c=input_side();
+    isscalene=check_scalene(a,b,c);
+    output(a,b,c,isscalene);
     return 0;
 }
 int input_side() {
