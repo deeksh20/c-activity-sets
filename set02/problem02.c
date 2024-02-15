@@ -20,10 +20,22 @@ int input_side() {
     return side;
 }
 int check_scalene(int a, int b, int c){
-    return (a!=b && b!=c && c!=a);
+    if (a!=b && b!=c && c!=a){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+
 }
 void output(int a, int b, int c, int isscalene){
-    printf("the triangle with side %d,%d and %d is scalene\n",a,b,c);
+    printf("the side of the triangle are %d,%d and %d\n",a,b,c);
+    if (isscalene){
+        printf("the triangle is scalene\n");
+    }
+    else{
+        printf("the triangle is not scalene\n");
+    }
 }
     
 
