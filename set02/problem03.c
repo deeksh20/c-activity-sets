@@ -23,10 +23,13 @@ int is_composite(int n){
             factors++;
         }
     }
-    return (factors > 2);
+    if (factors > 2){
+        return 1;
+    }
+    return 0;
 }
 void output(int n, int result){
-    if(result){
+    if(result==1){
         printf("%d is a composite numbers\n",n);  
     }
     else{
