@@ -22,7 +22,7 @@ int input_array_size(){
     return n;
 }
 void input_array(int n, int a[n]){
-    printf("eneter %d numbers seperated by spaces:",n);
+    printf("enter %d numbers seperated by spaces:",n);
     for(int i=0;i<n;++i){
         scanf("%d",&a[i]);
     }
